@@ -71,9 +71,9 @@ The main Aim of this project is to implement Object measurement and its distance
     pinMode(echoPin, INPUT);
     pinMode(led, OUTPUT);
     lcd.begin(16, 2);
-    lcd.print ("Ultrasonic ");
+    lcd.print ("Distance-------- ");
     lcd.setCursor(0, 1);
-    lcd.print ("Range Meter");
+    lcd.print ("-------Measuring");
     delay (5000);
     
     }
@@ -97,7 +97,7 @@ The main Aim of this project is to implement Object measurement and its distance
   
     lcd.setCursor(0, 1);
     lcd.print(distance);
-    delay (300);
+    delay (1500);
 
   
  
